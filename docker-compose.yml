@@ -1,0 +1,76 @@
+# 由 scripts/make_configs.py 生成 —— 不要手改，改 agent/mcp_registry.py 后重跑。
+#
+# 说明：MCP 是 stdio 协议，一个 server 一个进程，因此这里用三个常驻容器
+# （每个都保持 stdin 打开，等价于本地 `python -m servers.*.server`）。
+# 用法：
+#   docker compose up -d --build          # 起三个 server
+#   docker compose exec agent python -m agent.cli "Pilbara 锂矿简报"
+#   docker compose run --rm agent python -m pytest tests -q
+
+services:
+  mining-news-mcp:
+    build: .
+    image: mineral-daily-agent:latest
+    container_name: mining-news-mcp
+    stdin_open: true
+    tty: false
+    command: ["python", "-m", "servers.mining_news_mcp.server"]
+    environment:
+      - MDA_DATA_DIR=/app/data
+      - MDA_OFFLINE=${MDA_OFFLINE:-0}
+      - MDA_LLM_API_KEY=${MDA_LLM_API_KEY:-}
+      - MDA_CRITIC_API_KEY=${MDA_CRITIC_API_KEY:-}
+      - MDA_LLM_BASE_URL=${MDA_LLM_BASE_URL:-https://api.deepseek.com/v1}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  mineral-pdf-mcp:
+    build: .
+    image: mineral-daily-agent:latest
+    container_name: mineral-pdf-mcp
+    stdin_open: true
+    tty: false
+    command: ["python", "-m", "servers.mineral_pdf_mcp.server"]
+    environment:
+      - MDA_DATA_DIR=/app/data
+      - MDA_OFFLINE=${MDA_OFFLINE:-0}
+      - MDA_LLM_API_KEY=${MDA_LLM_API_KEY:-}
+      - MDA_CRITIC_API_KEY=${MDA_CRITIC_API_KEY:-}
+      - MDA_LLM_BASE_URL=${MDA_LLM_BASE_URL:-https://api.deepseek.com/v1}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  lme-price-mcp:
+    build: .
+    image: mineral-daily-agent:latest
+    container_name: lme-price-mcp
+    stdin_open: true
+    tty: false
+    command: ["python", "-m", "servers.lme_price_mcp.server"]
+    environment:
+      - MDA_DATA_DIR=/app/data
+      - MDA_OFFLINE=${MDA_OFFLINE:-0}
+      - MDA_LLM_API_KEY=${MDA_LLM_API_KEY:-}
+      - MDA_CRITIC_API_KEY=${MDA_CRITIC_API_KEY:-}
+      - MDA_LLM_BASE_URL=${MDA_LLM_BASE_URL:-https://api.deepseek.com/v1}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  agent:
+    build: .
+    image: mineral-daily-agent:latest
+    container_name: mineral-daily-agent
+    profiles: ["cli"]
+    command: ["python", "-m", "agent.cli", "--list-projects"]
+    environment:
+      - MDA_DATA_DIR=/app/data
+      - MDA_OFFLINE=${MDA_OFFLINE:-0}
+      - MDA_LLM_API_KEY=${MDA_LLM_API_KEY:-}
+      - MDA_CRITIC_API_KEY=${MDA_CRITIC_API_KEY:-}
+      - MDA_LLM_BASE_URL=${MDA_LLM_BASE_URL:-https://api.deepseek.com/v1}
+    volumes:
+      - ./data:/app/data
+      - ./:/app

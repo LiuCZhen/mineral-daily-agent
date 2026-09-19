@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "mining-news-mcp": {
+      "command": "C:\\AITool\\Anaconda3-2025\\python.exe",
+      "args": [
+        "-m",
+        "servers.mining_news_mcp.server"
+      ],
+      "cwd": "C:\\Users\\臻\\Desktop\\面试题\\mineral-daily-agent"
+    },
+    "mineral-pdf-mcp": {
+      "command": "C:\\AITool\\Anaconda3-2025\\python.exe",
+      "args": [
+        "-m",
+        "servers.mineral_pdf_mcp.server"
+      ],
+      "cwd": "C:\\Users\\臻\\Desktop\\面试题\\mineral-daily-agent"
+    },
+    "lme-price-mcp": {
+      "command": "C:\\AITool\\Anaconda3-2025\\python.exe",
+      "args": [
+        "-m",
+        "servers.lme_price_mcp.server"
+      ],
+      "cwd": "C:\\Users\\臻\\Desktop\\面试题\\mineral-daily-agent"
+    }
+  }
+}

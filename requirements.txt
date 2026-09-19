@@ -1,0 +1,32 @@
+# 依赖清单 —— 请先读这段再决定是否安装。
+#
+# 【结论】本项目**零第三方依赖即可完整运行**：MCP 协议栈（services/common/mcp_protocol.py）
+# 与 PDF 文本层（servers/mineral_pdf_mcp/pdf_text.py）都是纯标准库实现，
+# 因此 `python -m agent.cli`、`python -m pytest`、三个 MCP server 都不需要 pip install。
+#
+# 但有两个例外（必须装，否则跑不起来）：
+#   - reportlab：仅用于 scripts/make_sample_pdfs.py 生成合成样例 PDF
+#   - httpx    ：仅用于联网抓取（servers/common/http.py）与调用 LLM
+#   - pytest   ：仅用于跑测试
+# 离线演示若跳过 make_sample_pdfs.py（样例 PDF 已随仓库提供），reportlab 也可不装。
+#
+# 【Python 版本】建议 3.10+（开发环境 3.13）。
+#   代码大量使用 `X | None` 注解，配合各文件顶部的 `from __future__ import annotations`
+#   在 3.7+ 也能解析；但下方依赖的最低版本要求 3.8+，因此 3.7 解释器无法完成安装。
+
+# ---- 必需 ----
+httpx>=0.24.0         # HTTP 客户端（抓取新闻/价格/PDF、调用 LLM）
+reportlab>=3.6.0      # 生成合成 NI 43-101 样例 PDF（也用于「扫描件 abstain」测试）
+pytest>=7.0.0         # 测试（pytest 8 需要 Python 3.8+，在 3.7 上会自动退到 7.x）
+
+# ---- 可选（不装也能跑，装了只是换实现/加能力）----
+# 官方 MCP SDK：本项目协议栈是自研的，不依赖它；
+# 它要求 Python 3.10+，在旧解释器上 pip 会直接报「找不到匹配的发行版」。
+# mcp>=1.2.0
+# 备选 HTML 解析器：装了会让正文抽取更稳；没装则自动退化为标准库 HTMLParser。
+# lxml>=4.9.0
+# 读取 .env（servers/common/llm.py 只从环境变量读配置，不装也不影响）
+# python-dotenv>=1.0.0
+# pydantic>=2.6.0     # 返回体校验已用 dataclass 手工实现，未使用
+# pdfplumber>=0.11.0  # PDF 文本层已自研实现，未使用
+# feedparser>=6.0.11  # RSS 解析已用标准库 xml.etree 实现，未使用
