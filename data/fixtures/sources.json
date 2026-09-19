@@ -1,0 +1,35 @@
+{
+  "generated": true,
+  "note": "synthetic NI 43-101 samples for offline testing",
+  "cases": [
+    {
+      "id": "newmont",
+      "file": "newmont_ni43-101_synthetic.pdf",
+      "company": "Newmont-style Gold Corp. (SYNTHETIC)",
+      "commodity": "Au",
+      "traps": [
+        "inferred_nested_in_indicated"
+      ]
+    },
+    {
+      "id": "barrick",
+      "file": "barrick_ni43-101_synthetic.pdf",
+      "company": "Barrick-style Copper-Gold Inc. (SYNTHETIC)",
+      "commodity": "Cu",
+      "traps": [
+        "equivalent_grade_distractor",
+        "Mlb_unit"
+      ]
+    },
+    {
+      "id": "pilbara",
+      "file": "pilbara_ni43-101_synthetic.pdf",
+      "company": "Pilbara-style Lithium Ltd. (SYNTHETIC)",
+      "commodity": "Li2O",
+      "traps": [
+        "table_split_across_pages",
+        "missing_grade_must_abstain"
+      ]
+    }
+  ]
+}

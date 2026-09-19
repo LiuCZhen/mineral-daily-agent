@@ -1,0 +1,146 @@
+{"ts": "2026-09-18T17:20:36", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:20:36", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:20:36", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:20:36", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: extract done"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:20:38", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:20:38", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:20:38", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:20:38", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:38", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:20:38", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:39", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:39", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:39", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:20:39", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:20:39", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:20:39", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:39", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:20:40", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:20:40", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:20:40", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:20:40", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:40", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:20:40", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: extract done"}
+{"ts": "2026-09-18T17:20:40", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:41", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:41", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:41", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:41", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:41", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:47", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:20:47", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:20:47", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:20:47", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:20:48", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:48", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:20:48", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:48", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:48", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:48", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: extract done"}
+{"ts": "2026-09-18T17:20:50", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:20:50", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:20:50", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:20:50", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:20:50", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:50", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:20:50", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:52", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:20:52", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:52", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:20:52", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:20:52", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:20:52", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:20:52", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:53", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:53", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:53", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:53", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:53", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:54", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:54", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:54", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:56", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:20:57", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:20:57", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:20:57", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:20:57", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=True, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:57", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:20:57", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:20:58", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:20:58", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:20:58", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:58", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:58", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:20:58", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: extract done"}
+{"ts": "2026-09-18T17:22:22", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: extract done"}
+{"ts": "2026-09-18T17:22:24", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:22:24", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:22:24", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:22:24", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: search done"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: extract done"}
+{"ts": "2026-09-18T17:22:37", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:22:37", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:22:37", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:22:37", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:22:38", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:38", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:22:38", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:22:38", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:22:38", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}
+{"ts": "2026-09-18T17:22:39", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mining-news-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mining_news_mcp.server"}
+{"ts": "2026-09-18T17:22:39", "level": "INFO", "logger": "common.mcp_client", "msg": "[mining-news-mcp stderr] [INFO] mining_news_mcp: mining-news-mcp starting (offline=True, feeds=4)"}
+{"ts": "2026-09-18T17:22:39", "level": "INFO", "logger": "common.mcp_client", "msg": "server mining-news-mcp exposes 4 tools: ['fetch_article', 'ingest', 'list_sources', 'search']"}
+{"ts": "2026-09-18T17:22:39", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server mineral-pdf-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.mineral_pdf_mcp.server"}
+{"ts": "2026-09-18T17:22:39", "level": "INFO", "logger": "common.mcp_client", "msg": "[mineral-pdf-mcp stderr] [INFO] mineral_pdf_mcp: mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:39", "level": "INFO", "logger": "common.mcp_client", "msg": "server mineral-pdf-mcp exposes 3 tools: ['extract_resources', 'list_sample_reports', 'verify_extraction']"}
+{"ts": "2026-09-18T17:22:39", "level": "INFO", "logger": "common.mcp_client", "msg": "starting mcp server lme-price-mcp: C:\\AITool\\Anaconda3-2025\\python.exe -m servers.lme_price_mcp.server"}
+{"ts": "2026-09-18T17:22:40", "level": "INFO", "logger": "common.mcp_client", "msg": "[lme-price-mcp stderr] [INFO] lme_price_mcp: lme-price-mcp starting (network=False, source=stooq)"}
+{"ts": "2026-09-18T17:22:40", "level": "INFO", "logger": "common.mcp_client", "msg": "server lme-price-mcp exposes 3 tools: ['get_price', 'get_trend', 'list_commodities']"}

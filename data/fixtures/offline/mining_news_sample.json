@@ -1,0 +1,98 @@
+{
+  "generated": true,
+  "note": "SYNTHETIC sample news corpus for offline demonstration only. Not real reporting; do not cite as fact.",
+  "items": [
+    {
+      "title": "Pilbara lithium shipments recover as spodumene prices stabilise",
+      "url": "https://example.com/synthetic/pilbara-shipments",
+      "source": "mining.com (synthetic sample)",
+      "published_at": "2026-09-18T07:26:46",
+      "summary": "Pilbara Minerals reported higher spodumene concentrate shipments while spot prices steadied after a two-quarter decline.",
+      "content": "SYNTHETIC SAMPLE ARTICLE — not a real news report.\n\nThe producer said spodumene concentrate shipments rose quarter on quarter as offtake partners in China restocked, while realised prices remained broadly flat after two consecutive quarters of decline.\n\nAnalysts cautioned that Chinese lithium carbonate inventories remain elevated, and that any price recovery depends on downstream EV demand in the second half of the year.",
+      "commodities": [
+        "lithium"
+      ],
+      "regions": [
+        "AU"
+      ],
+      "synthetic": true
+    },
+    {
+      "title": "Australia tightens critical minerals investment screening",
+      "url": "https://example.com/synthetic/disr-critical-minerals-guidance",
+      "source": "DISR (synthetic sample)",
+      "published_at": "2026-09-17T07:26:46",
+      "summary": "The Department of Industry, Science and Resources updated guidance on foreign investment in critical minerals projects.",
+      "content": "SYNTHETIC SAMPLE ARTICLE — not a real government notice.\n\nUpdated guidance clarifies that proposed acquisitions of critical minerals projects may be screened where the target holds a strategic deposit, and sets out expectations on downstream processing commitments.\n\nThe change is described as a procedural clarification rather than a tightening of the existing threshold, but legal advisers expect longer review timelines for offshore bidders.",
+      "commodities": [
+        "lithium",
+        "rare earths"
+      ],
+      "regions": [
+        "AU"
+      ],
+      "synthetic": true
+    },
+    {
+      "title": "Copper concentrate treatment charges fall to multi-year lows",
+      "url": "https://example.com/synthetic/copper-tcrc-lows",
+      "source": "mining.com (synthetic sample)",
+      "published_at": "2026-09-15T07:26:46",
+      "summary": "Spot treatment and refining charges for copper concentrate extended losses as smelter capacity outpaced mine supply growth.",
+      "content": "SYNTHETIC SAMPLE ARTICLE — not a real news report.\n\nSpot TC/RCs for copper concentrate fell further, reflecting continued smelter expansion in China against limited growth in mined concentrate supply. Producers with high-cost operations face margin pressure.\n\nThe development is relevant to copper price direction and to smelter economics, though it does not by itself imply a change in refined copper prices.",
+      "commodities": [
+        "copper"
+      ],
+      "regions": [
+        "CL",
+        "CN"
+      ],
+      "synthetic": true
+    },
+    {
+      "title": "China rare earth quota pace draws scrutiny from buyers",
+      "url": "https://example.com/synthetic/rare-earth-quota-scrutiny",
+      "source": "S&P Global (synthetic sample)",
+      "published_at": "2026-09-13T07:26:46",
+      "summary": "Buyers are watching quota issuance cadence from the China Rare Earth Group for signals on supply availability.",
+      "content": "SYNTHETIC SAMPLE ARTICLE — not a real news report.\n\nMarket participants are monitoring the pace of mining and smelting quota issuance, which has historically influenced short-term prices for praseodymium-neodymium oxides.\n\nNo specific quota volume changes have been confirmed in this sample.",
+      "commodities": [
+        "rare earths"
+      ],
+      "regions": [
+        "CN"
+      ],
+      "synthetic": true
+    },
+    {
+      "title": "Nickel market faces surplus as Indonesian supply expands",
+      "url": "https://example.com/synthetic/nickel-surplus",
+      "source": "mining.com (synthetic sample)",
+      "published_at": "2026-09-10T07:26:46",
+      "summary": "Higher Indonesian nickel output continues to pressure class-1 nickel prices.",
+      "content": "SYNTHETIC SAMPLE ARTICLE — not a real news report.\n\nRising Indonesian supply has kept the global nickel market in surplus, with LME inventories climbing and prices under pressure.",
+      "commodities": [
+        "nickel"
+      ],
+      "regions": [
+        "ID"
+      ],
+      "synthetic": true
+    },
+    {
+      "title": "Pilbara exploration results extend lithium mineralisation at depth",
+      "url": "https://example.com/synthetic/pilbara-exploration",
+      "source": "S&P Global (synthetic sample)",
+      "published_at": "2026-09-06T07:26:46",
+      "summary": "Drilling extended high-grade spodumene mineralisation below the current resource pit shell.",
+      "content": "SYNTHETIC SAMPLE ARTICLE — not a real news report.\n\nAssay results from extensional drilling intersected spodumene-bearing pegmatite below the existing resource outline, which may support a future resource upgrade if confirmed by infill drilling.",
+      "commodities": [
+        "lithium"
+      ],
+      "regions": [
+        "AU"
+      ],
+      "synthetic": true
+    }
+  ]
+}

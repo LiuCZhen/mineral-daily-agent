@@ -1,0 +1,230 @@
+{
+  "topic": "给我生成一份关于 Pilbara 锂矿的今日简报",
+  "markdown": "# 矿权日报 — Pilbara Lithium (Pilgangoora)\n\n- **生成时间**：2026-09-18 09:20 UTC\n- **主题**：给我生成一份关于 Pilbara 锂矿的今日简报\n- **所属国家/地区**：AU\n- **主要品种**：lithium\n- **数据可靠性**：⚠️ 存在降级数据 （自检评分 8.4/10，通过）\n- **工具调用**：7 步，成功 7，失败 0，跳过 0\n\n## 0. 数据可靠性声明\n\n本简报包含**降级数据**：部分数据来自缓存、离线合成序列或代理指标，不得作为交易或披露依据。\n\n- 新闻检索：live_feeds_unreachable; seeded 6 SYNTHETIC sample articles for offline demonstration\n- 新闻检索：所有配置的 RSS 源均不可达，结果可能来自缓存或合成样例。\n- 储量抽取：以下字段报告中未给出或未能定位，保持 null：Indicated.metal, Inferred.grade, Inferred.metal\n- 价格（lithium_carbonate）：未取得一手行情（offline mode），数据来源为 offline_fixture。离线合成序列仅供演示，不是真实行情，禁止作为报价依据。\n- 价格（lithium_carbonate）：锂盐现货无免费公开日线源，使用合成代理序列，仅供趋势参考，不可作为报价依据。\n- 价格（spodumene_sc6）：未取得一手行情（offline mode），数据来源为 offline_fixture。离线合成序列仅供演示，不是真实行情，禁止作为报价依据。\n- 价格（spodumene_sc6）：SC6 现货报价无免费公开源，使用合成代理序列。\n\n**未解决的自检问题（Critic 判定）**：\n\n- `resource_partial`（major）：储量抽取为 partial（部分字段缺失）：这些字段不得在简报中给出数值\n\n## 1. 新闻摘要\n\n1. **Pilbara lithium shipments recover as spodumene prices stabilise** — [example.com](https://example.com/synthetic/pilbara-shipments)（降级数据）\n   - mining.com (synthetic sample) [SYNTHETIC] · 2026-09-18T07:26:46 · lithium · AU，CN\n   - 摘要：Pilbara Minerals reported higher spodumene concentrate shipments while spot prices steadied after a two-quarter decline.\n   - 命中词：pilbara, lithium\n2. **Pilbara exploration results extend lithium mineralisation at depth** — [example.com](https://example.com/synthetic/pilbara-exploration)（降级数据）\n   - S&P Global (synthetic sample) [SYNTHETIC] · 2026-09-06T07:26:46 · lithium · AU\n   - 摘要：Drilling extended high-grade spodumene mineralisation below the current resource pit shell.\n   - 命中词：pilbara, lithium\n3. **Australia tightens critical minerals investment screening** — [example.com](https://example.com/synthetic/disr-critical-minerals-guidance)（降级数据）\n   - DISR (synthetic sample) [SYNTHETIC] · 2026-09-17T07:26:46 · AU\n   - 摘要：The Department of Industry, Science and Resources updated guidance on foreign investment in critical minerals projects.\n   - 命中词：minerals\n\n**重点文章全文要点**（mining.com (synthetic sample) [SYNTHETIC]，降级数据）：\n\n> Pilbara lithium shipments recover as spodumene prices stabilise\n>\n> SYNTHETIC SAMPLE ARTICLE — generated for offline testing, not a real news report.\n>\n> The producer reported higher spodumene concentrate shipments quarter on quarter as\nofftake partners in China restocked, while realised prices remained broadly flat\nafter two consecutive quarters of decline.\n>\n> Analysts cautioned that Chinese lithium carbonate inventories remain elevated, and\nthat any price recovery depends on downstream battery demand in the second half of\nthe year.\n>\n> On the policy side, updated guidance on foreign investment screening may lengthen\nreview timelines for offshore bidders in critical minerals projects.\n>\n\n## 2. 储量数据（NI 43-101 Indicated / Inferred）\n\n- 抽取状态：⚠️ 部分字段缺失（置信度 0.8）\n- 数据来源：`local_file` — C:\\Users\\臻\\Desktop\\面试题\\mineral-daily-agent\\data\\fixtures\\pilbara_ni43-101_synthetic.pdf（3 页）\n- 解析统计：候选行 2 行，识别分类 Indicated，页内扫描 2/3 页，品位×矿量一致率 None\n\n| 分类 | 矿石量 (Mt) | 品位 | 金属量 | 反算金属吨 | 页码 |\n| --- | ---: | ---: | ---: | ---: | ---: |\n| Indicated | 108.00 | 1.18 % | 缺失 | 缺失 | 2 |\n| Inferred（含于 Indicated 之内） | 42.50 | 缺失 | 缺失 | 缺失 | 3 |\n\n**嵌套说明**：\n\n- Inferred 的 42.50 Mt 标注为含于 Indicated 之内，不应与其相加。\n\n> ⚠️ LLM 抽取路径未启用：llm_not_configured（未设置 MDA_LLM_API_KEY，走确定性解析器）\n> ⚠️ 以下字段报告中未给出或未能定位，保持 null：Indicated.metal, Inferred.grade, Inferred.metal\n\n## 3. 价格走势（近 30 天）\n\n| 品种 | 起止日期 | 起始 | 最新 | 涨跌幅 | 区间低/高 | 年化波动率 | 方向 | 数据来源 |\n| --- | --- | ---: | ---: | ---: | --- | ---: | --- | --- |\n| Lithium carbonate (spot, CIF Asia) | 2026-08-10 → 2026-09-18 | 10,662.43 | 11,141.23 | +4.49% | 9,384.01 / 11,141.23 | 43.7% | 上涨 | offline_fixture（降级/代理指标） |\n| Spodumene concentrate 6% (SC6) | 2026-08-10 → 2026-09-18 | 1,028.44 | 1,187.45 | +15.46% | 1,028.44 / 1,212.27 | 48.3% | 上涨 | offline_fixture（降级/代理指标） |\n\n**代理指标说明**：\n\n- Lithium carbonate (spot, CIF Asia)：锂盐现货无免费公开日线源，使用合成代理序列，仅供趋势参考，不可作为报价依据。\n- Spodumene concentrate 6% (SC6)：SC6 现货报价无免费公开源，使用合成代理序列。\n\n## 4. 风险提示\n\n- **[价格波动]** Lithium carbonate (spot, CIF Asia) 年化波动率 43.7%，储量估值对价格假设高度敏感。\n- **[价格波动]** Spodumene concentrate 6% (SC6) 价格近 30 天上涨 +15.46%，需关注对项目经济性的影响。\n- **[价格波动]** Spodumene concentrate 6% (SC6) 年化波动率 48.3%，储量估值对价格假设高度敏感。\n- **[数据完整性]** Indicated 缺少金属量字段，无法验证品位与矿量的自洽性。\n- **[披露口径]** Inferred 资源量以含于 Indicated 的增量形式披露，不可与上级分类直接相加。\n- **[数据完整性]** Inferred 缺少金属量字段，无法验证品位与矿量的自洽性。\n- **[项目层面]** 锂价波动率高，储量经济性假设对价格敏感\n- **[项目层面]** 澳洲关键矿产外资审查与出口政策变动\n- **[项目层面]** 中游转化产能集中度带来的议价风险\n- **[数据可靠性]** 数据可靠性：新闻检索：所有配置的 RSS 源均不可达，结果可能来自缓存或合成样例。\n- **[数据可靠性]** 数据可靠性：价格（lithium_carbonate）：未取得一手行情（offline mode），数据来源为 offline_fixture。离线合成序列仅供演示，不是真实行情，禁止作为报价依据。\n- **[数据可靠性]** 数据可靠性：价格（lithium_carbonate）：锂盐现货无免费公开日线源，使用合成代理序列，仅供趋势参考，不可作为报价依据。\n- **[数据可靠性]** 数据可靠性：价格（spodumene_sc6）：未取得一手行情（offline mode），数据来源为 offline_fixture。离线合成序列仅供演示，不是真实行情，禁止作为报价依据。\n- **[数据可靠性]** 数据可靠性：价格（spodumene_sc6）：SC6 现货报价无免费公开源，使用合成代理序列。\n\n## 5. 引用源\n\n**新闻**\n\n[1] Pilbara lithium shipments recover as spodumene prices stabilise — mining.com (synthetic sample) [SYNTHETIC]（2026-09-18T07:26:46）：https://example.com/synthetic/pilbara-shipments\n\n[2] Pilbara exploration results extend lithium mineralisation at depth — S&P Global (synthetic sample) [SYNTHETIC]（2026-09-06T07:26:46）：https://example.com/synthetic/pilbara-exploration\n\n[3] Australia tightens critical minerals investment screening — DISR (synthetic sample) [SYNTHETIC]（2026-09-17T07:26:46）：https://example.com/synthetic/disr-critical-minerals-guidance\n\n[4] 全文：Pilbara lithium shipments recover as spodumene prices stabilise — https://example.com/synthetic/pilbara-shipments\n\n[5] NI 43-101 报告：C:\\Users\\臻\\Desktop\\面试题\\mineral-daily-agent\\data\\fixtures\\pilbara_ni43-101_synthetic.pdf（local_file，3 页）\n\n[6] 价格序列来源：offline_fixture（单位/代理说明见表内标注）\n\n## 6. 方法与可复现说明\n\n本简报由 `mineral-daily-agent` 通过 MCP 协议编排三个 server 生成：\n\n| 步骤 | 工具 | 参数 | 状态 | 耗时 |\n| --- | --- | --- | --- | ---: |\n| 检索新闻：Pilbara lithium | `mining-news-mcp.search` | query=Pilbara lithium, days=14, limit=6 | ok | 20 ms |\n| 检索新闻：spodumene | `mining-news-mcp.search` | query=spodumene, days=14, limit=6 | ok | 0 ms |\n| 检索新闻：Pilbara Minerals | `mining-news-mcp.search` | query=Pilbara Minerals, days=14, limit=6 | ok | 0 ms |\n| 抓取重点文章全文 | `mining-news-mcp.fetch_article` | url=https://example.com/synthetic/pilbara-s…, max_chars=6000 | ok | 23 ms |\n| 抽取储量：Pilbara-style NI 43-101 (SYNTHETIC) | `mineral-pdf-mcp.extract_resources` | pdf_url=C:\\Users\\臻\\Desktop\\面试题\\mineral-daily-ag…, include_raw_rows=False | ok | 18 ms |\n| 价格趋势：lithium_carbonate | `lme-price-mcp.get_trend` | commodity=lithium_carbonate, days=30 | ok | 13 ms |\n| 价格趋势：spodumene_sc6 | `lme-price-mcp.get_trend` | commodity=spodumene_sc6, days=30 | ok | 4 ms |\n\n\n所有数值均直接取自工具返回的结构化字段，渲染层不做推算或补全；缺失值一律标注为「缺失」，不填 0。\n",
+  "critic": {
+    "score": 8.4,
+    "passed": true,
+    "round": 0,
+    "issues": [
+      {
+        "code": "no_numeric_cross_check",
+        "message": "没有可用于交叉验算的储量字段（Mt+品位+金属量），数值可信度无法复核",
+        "severity": "minor",
+        "evidence": {}
+      },
+      {
+        "code": "resource_partial",
+        "message": "储量抽取为 partial（部分字段缺失）：这些字段不得在简报中给出数值",
+        "severity": "major",
+        "evidence": {
+          "status": "partial"
+        }
+      }
+    ],
+    "checks": {
+      "grade_metal_consistency": {
+        "checked": 0,
+        "inconsistent": 0
+      },
+      "resource_status": {
+        "status": "partial",
+        "confidence": 0.8
+      },
+      "citations": {
+        "news_items": 3,
+        "articles": 1,
+        "missing_urls": 0,
+        "price_series": 2
+      },
+      "degradation_disclosed": {
+        "degraded": true,
+        "disclosed": true
+      },
+      "coverage": {
+        "news": true,
+        "resources": true,
+        "price": true,
+        "risk": true
+      },
+      "price_consistency": {
+        "checked": 2,
+        "inconsistent": 0
+      }
+    }
+  },
+  "critic_history": [
+    {
+      "score": 8.4,
+      "passed": true,
+      "round": 0,
+      "issues": [
+        {
+          "code": "no_numeric_cross_check",
+          "message": "没有可用于交叉验算的储量字段（Mt+品位+金属量），数值可信度无法复核",
+          "severity": "minor",
+          "evidence": {}
+        },
+        {
+          "code": "resource_partial",
+          "message": "储量抽取为 partial（部分字段缺失）：这些字段不得在简报中给出数值",
+          "severity": "major",
+          "evidence": {
+            "status": "partial"
+          }
+        }
+      ],
+      "checks": {
+        "grade_metal_consistency": {
+          "checked": 0,
+          "inconsistent": 0
+        },
+        "resource_status": {
+          "status": "partial",
+          "confidence": 0.8
+        },
+        "citations": {
+          "news_items": 3,
+          "articles": 1,
+          "missing_urls": 0,
+          "price_series": 2
+        },
+        "degradation_disclosed": {
+          "degraded": true,
+          "disclosed": true
+        },
+        "coverage": {
+          "news": true,
+          "resources": true,
+          "price": true,
+          "risk": true
+        },
+        "price_consistency": {
+          "checked": 2,
+          "inconsistent": 0
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step_id": "news-1",
+      "title": "检索新闻：Pilbara lithium",
+      "tool": "mining-news-mcp.search",
+      "arguments": {
+        "query": "Pilbara lithium",
+        "days": 14,
+        "limit": 6
+      },
+      "purpose": "收集与主题相关的近期新闻，作为简报的新闻摘要与引用来源",
+      "status": "ok",
+      "error": null,
+      "duration_ms": 20,
+      "degraded": true
+    },
+    {
+      "step_id": "news-2",
+      "title": "检索新闻：spodumene",
+      "tool": "mining-news-mcp.search",
+      "arguments": {
+        "query": "spodumene",
+        "days": 14,
+        "limit": 6
+      },
+      "purpose": "收集与主题相关的近期新闻，作为简报的新闻摘要与引用来源",
+      "status": "ok",
+      "error": null,
+      "duration_ms": 0,
+      "degraded": true
+    },
+    {
+      "step_id": "news-3",
+      "title": "检索新闻：Pilbara Minerals",
+      "tool": "mining-news-mcp.search",
+      "arguments": {
+        "query": "Pilbara Minerals",
+        "days": 14,
+        "limit": 6
+      },
+      "purpose": "收集与主题相关的近期新闻，作为简报的新闻摘要与引用来源",
+      "status": "ok",
+      "error": null,
+      "duration_ms": 0,
+      "degraded": true
+    },
+    {
+      "step_id": "news-fulltext",
+      "title": "抓取重点文章全文",
+      "tool": "mining-news-mcp.fetch_article",
+      "arguments": {
+        "url": "https://example.com/synthetic/pilbara-shipments",
+        "max_chars": 6000
+      },
+      "purpose": "对检索结果中相关度最高的一篇抓取全文，避免只基于标题做摘要",
+      "status": "ok",
+      "error": null,
+      "duration_ms": 23,
+      "degraded": true
+    },
+    {
+      "step_id": "resources-1",
+      "title": "抽取储量：Pilbara-style NI 43-101 (SYNTHETIC)",
+      "tool": "mineral-pdf-mcp.extract_resources",
+      "arguments": {
+        "pdf_url": "C:\\Users\\臻\\Desktop\\面试题\\mineral-daily-agent\\data\\fixtures\\pilbara_ni43-101_synthetic.pdf",
+        "include_raw_rows": false
+      },
+      "purpose": "取得 Indicated / Inferred 矿石量、品位与金属量，并保留页码证据",
+      "status": "ok",
+      "error": null,
+      "duration_ms": 18,
+      "degraded": true
+    },
+    {
+      "step_id": "price-1",
+      "title": "价格趋势：lithium_carbonate",
+      "tool": "lme-price-mcp.get_trend",
+      "arguments": {
+        "commodity": "lithium_carbonate",
+        "days": 30
+      },
+      "purpose": "给出近 30 天价格方向、波动率与区间高低，支撑风险提示",
+      "status": "ok",
+      "error": null,
+      "duration_ms": 13,
+      "degraded": true
+    },
+    {
+      "step_id": "price-2",
+      "title": "价格趋势：spodumene_sc6",
+      "tool": "lme-price-mcp.get_trend",
+      "arguments": {
+        "commodity": "spodumene_sc6",
+        "days": 30
+      },
+      "purpose": "给出近 30 天价格方向、波动率与区间高低，支撑风险提示",
+      "status": "ok",
+      "error": null,
+      "duration_ms": 4,
+      "degraded": true
+    }
+  ],
+  "used_tools": [
+    "mining-news-mcp.search",
+    "mining-news-mcp.fetch_article",
+    "mineral-pdf-mcp.extract_resources",
+    "lme-price-mcp.get_trend"
+  ],
+  "output_path": null,
+  "degraded": true,
+  "warnings": [
+    "新闻检索：live_feeds_unreachable; seeded 6 SYNTHETIC sample articles for offline demonstration",
+    "新闻检索：所有配置的 RSS 源均不可达，结果可能来自缓存或合成样例。",
+    "新闻检索：所有配置的 RSS 源均不可达，结果可能来自缓存或合成样例。",
+    "新闻检索：所有配置的 RSS 源均不可达，结果可能来自缓存或合成样例。",
+    "储量抽取：以下字段报告中未给出或未能定位，保持 null：Indicated.metal, Inferred.grade, Inferred.metal",
+    "价格（lithium_carbonate）：未取得一手行情（offline mode），数据来源为 offline_fixture。离线合成序列仅供演示，不是真实行情，禁止作为报价依据。",
+    "价格（lithium_carbonate）：锂盐现货无免费公开日线源，使用合成代理序列，仅供趋势参考，不可作为报价依据。",
+    "价格（spodumene_sc6）：未取得一手行情（offline mode），数据来源为 offline_fixture。离线合成序列仅供演示，不是真实行情，禁止作为报价依据。",
+    "价格（spodumene_sc6）：SC6 现货报价无免费公开源，使用合成代理序列。"
+  ]
+}

@@ -1,0 +1,26 @@
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:37", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "partial", "confidence": 0.8, "pages": 3, "rows": 2}}
+{"ts": "2026-09-18T17:20:38", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:40", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:40", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "ok", "confidence": 0.95, "pages": 2, "rows": 4}}
+{"ts": "2026-09-18T17:20:48", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:49", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "partial", "confidence": 0.8, "pages": 3, "rows": 2}}
+{"ts": "2026-09-18T17:20:50", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "partial", "confidence": 0.83, "pages": 2, "rows": 4}}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "ok", "confidence": 0.95, "pages": 2, "rows": 4}}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "partial", "confidence": 0.8, "pages": 3, "rows": 2}}
+{"ts": "2026-09-18T17:20:51", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "ok", "confidence": 0.95, "pages": 2, "rows": 4}}
+{"ts": "2026-09-18T17:20:52", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:56", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "partial", "confidence": 0.83, "pages": 2, "rows": 4}}
+{"ts": "2026-09-18T17:20:57", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=True, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:20:58", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "abstain", "confidence": 0.44, "pages": 3, "rows": 2}}
+{"ts": "2026-09-18T17:21:07", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:23", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "partial", "confidence": 0.8, "pages": 3, "rows": 2}}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:25", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "extract done", "tool": "extract_resources", "extra_data": {"status": "partial", "confidence": 0.8, "pages": 3, "rows": 2}}
+{"ts": "2026-09-18T17:22:32", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:38", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:39", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}
+{"ts": "2026-09-18T17:22:47", "level": "INFO", "logger": "mineral_pdf_mcp", "msg": "mineral-pdf-mcp starting (llm_configured=False, tolerance=5.0%)"}

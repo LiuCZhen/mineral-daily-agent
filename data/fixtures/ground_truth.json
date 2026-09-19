@@ -1,0 +1,98 @@
+{
+  "newmont": {
+    "case_id": "newmont",
+    "file": "newmont_ni43-101_synthetic.pdf",
+    "company": "Newmont-style Gold Corp. (SYNTHETIC)",
+    "project": "Ahafo North Style Gold Project, Ghana",
+    "commodity": "Au",
+    "grade_unit": "g/t",
+    "metal_unit": "oz",
+    "traps": [
+      "inferred_nested_in_indicated"
+    ],
+    "resources": {
+      "Indicated": {
+        "tonnes_mt": 21.6,
+        "grade": 2.74,
+        "grade_unit": "g/t",
+        "metal": 1903000.0,
+        "metal_unit": "oz",
+        "metal_tonnes": 59.189916350400004
+      },
+      "Inferred": {
+        "tonnes_mt": 3.2,
+        "grade": 2.15,
+        "grade_unit": "g/t",
+        "metal": 221000.0,
+        "metal_unit": "oz",
+        "metal_tonnes": 6.8738683728
+      }
+    },
+    "synthetic": true
+  },
+  "barrick": {
+    "case_id": "barrick",
+    "file": "barrick_ni43-101_synthetic.pdf",
+    "company": "Barrick-style Copper-Gold Inc. (SYNTHETIC)",
+    "project": "Reko Diq Style Porphyry Cu-Au Project",
+    "commodity": "Cu",
+    "grade_unit": "%",
+    "metal_unit": "Mlb",
+    "traps": [
+      "equivalent_grade_distractor",
+      "Mlb_unit"
+    ],
+    "resources": {
+      "Indicated": {
+        "tonnes_mt": 890.0,
+        "grade": 0.41,
+        "grade_unit": "%",
+        "metal": 8040.0,
+        "metal_unit": "Mlb",
+        "metal_tonnes": 3646882.6548
+      },
+      "Inferred": {
+        "tonnes_mt": 150.0,
+        "grade": 0.33,
+        "grade_unit": "%",
+        "metal": 1090.0,
+        "metal_unit": "Mlb",
+        "metal_tonnes": 494415.68330000003
+      }
+    },
+    "synthetic": true
+  },
+  "pilbara": {
+    "case_id": "pilbara",
+    "file": "pilbara_ni43-101_synthetic.pdf",
+    "company": "Pilbara-style Lithium Ltd. (SYNTHETIC)",
+    "project": "Pilgangoora Style Spodumene Project, WA",
+    "commodity": "Li2O",
+    "grade_unit": "%",
+    "metal_unit": "Mt",
+    "traps": [
+      "table_split_across_pages",
+      "missing_grade_must_abstain"
+    ],
+    "resources": {
+      "Indicated": {
+        "tonnes_mt": 108.0,
+        "grade": 1.18,
+        "grade_unit": "%",
+        "metal": null,
+        "metal_unit": null,
+        "metal_tonnes": null
+      },
+      "Inferred": {
+        "tonnes_mt": 42.5,
+        "grade": null,
+        "grade_unit": null,
+        "metal": null,
+        "metal_unit": null,
+        "metal_tonnes": null,
+        "expect_abstain": true
+      }
+    },
+    "synthetic": true
+  }
+}

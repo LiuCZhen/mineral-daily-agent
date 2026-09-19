@@ -1,0 +1,106 @@
+{
+  "generated": true,
+  "projects": [
+    {
+      "key": "pilbara-lithium",
+      "name": "Pilbara Lithium (Pilgangoora)",
+      "aliases": [
+        "pilbara",
+        "pilgangoora",
+        "pilbara minerals",
+        "皮尔巴拉",
+        "锂辉石"
+      ],
+      "country": "AU",
+      "commodity": "lithium",
+      "news_keywords": [
+        "Pilbara lithium",
+        "spodumene",
+        "Pilbara Minerals",
+        "锂 澳洲 出口"
+      ],
+      "reports": [
+        {
+          "label": "Pilbara-style NI 43-101 (SYNTHETIC)",
+          "path": "pilbara_ni43-101_synthetic.pdf",
+          "synthetic": true,
+          "note": "合成样例：表格跨页 + 某分类品位缺失（用于验证 abstain 行为）"
+        }
+      ],
+      "price_commodities": [
+        "lithium_carbonate",
+        "spodumene_sc6"
+      ],
+      "risk_notes": [
+        "锂价波动率高，储量经济性假设对价格敏感",
+        "澳洲关键矿产外资审查与出口政策变动",
+        "中游转化产能集中度带来的议价风险"
+      ]
+    },
+    {
+      "key": "ahafo-north-gold",
+      "name": "Ahafo North (Gold, Ghana)",
+      "aliases": [
+        "ahafo",
+        "newmont",
+        "加纳 金矿",
+        "gold ghana"
+      ],
+      "country": "GH",
+      "commodity": "gold",
+      "news_keywords": [
+        "Newmont Ghana",
+        "gold mine West Africa",
+        "加纳 金矿"
+      ],
+      "reports": [
+        {
+          "label": "Newmont-style NI 43-101 (SYNTHETIC)",
+          "path": "newmont_ni43-101_synthetic.pdf",
+          "synthetic": true,
+          "note": "合成样例：Inferred 以含于 Indicated 的增量形式出现"
+        }
+      ],
+      "price_commodities": [
+        "gold"
+      ],
+      "risk_notes": [
+        "单一司法辖区政治与财税风险",
+        "Inferred 资源不得视同储量，经济性未证实"
+      ]
+    },
+    {
+      "key": "rekodiq-copper-gold",
+      "name": "Reko Diq-style Cu-Au (Pakistan)",
+      "aliases": [
+        "rekodiq",
+        "reko diq",
+        "barrick",
+        "铜金 斑岩"
+      ],
+      "country": "PK",
+      "commodity": "copper",
+      "news_keywords": [
+        "Reko Diq copper",
+        "Barrick copper gold",
+        "斑岩 铜"
+      ],
+      "reports": [
+        {
+          "label": "Barrick-style NI 43-101 (SYNTHETIC)",
+          "path": "barrick_ni43-101_synthetic.pdf",
+          "synthetic": true,
+          "note": "合成样例：品位列存在 CuEq 等价品位干扰 + Mlb 单位"
+        }
+      ],
+      "price_commodities": [
+        "copper",
+        "gold"
+      ],
+      "risk_notes": [
+        "冶炼加工费（TC/RC）走低压缩冶炼与精矿经济性",
+        "跨境司法辖区与项目融资结构复杂"
+      ]
+    }
+  ]
+}
